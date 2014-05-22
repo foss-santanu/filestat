@@ -1,0 +1,40 @@
+{
+	"folders":
+	[
+		{
+			"path": "/host/santanu/programming/c_projects/filestat"
+		}
+	],
+	"build_systems":
+    [
+        {
+            "name": "build_filestat",
+            "cmd": ["bash","cbuild.c"],
+            "shell": false
+        },
+        {
+            "name": "analyse_rsm",
+            "env": {
+                "RSMHOME": "/opt/rsm"
+            },
+            "cmd": ["bash","cbuild.c","analyse_rsm"],
+            "shell": false
+        },
+        {
+            "name": "test_with_coverage",
+            "cmd": ["bash","cbuild.c","test_with_coverage"],
+            "shell": false
+        }
+    ],
+    "settings": {
+        "build_switcher_systems": [
+            "build_filestat",
+            "test_with_coverage",
+            "analyse_rsm"
+        ],
+        "sublimeclang_options": [
+            "-I${folder:${project_path:filestat.sublime-project}}/**"
+        ]
+
+    }
+}

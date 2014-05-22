@@ -1,0 +1,767 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sui",
+				"suite	CuSuite *"
+			],
+			[
+				"res",
+				"reset	int"
+			],
+			[
+				"if",
+				"if_	if(…)"
+			],
+			[
+				"CuAss",
+				"CuAssertStrEquals(tc, ex, ac)	macro"
+			],
+			[
+				"NU",
+				"NULL	macro"
+			],
+			[
+				"pat",
+				"pathToTestData"
+			],
+			[
+				"end",
+				"end_of_file	int"
+			],
+			[
+				"Fil",
+				"File_AllBlanks"
+			],
+			[
+				"linen",
+				"lineno	int"
+			],
+			[
+				"strc",
+				"strcpy(char *restrict __dest, const char *restrict __src)	char *"
+			],
+			[
+				"fln",
+				"flname	char *"
+			],
+			[
+				"test",
+				"testGetNextLine_BlankFile"
+			],
+			[
+				"en",
+				"endif"
+			],
+			[
+				"str",
+				"struct"
+			],
+			[
+				"path",
+				"pathToTestData	const char *"
+			],
+			[
+				"fr",
+				"free(void *__ptr)	void"
+			],
+			[
+				"ins",
+				"inStream	FILE *"
+			],
+			[
+				"line",
+				"lines	int"
+			],
+			[
+				"CuA",
+				"CuAssertIntEquals"
+			],
+			[
+				"nxt",
+				"nxtLine	struct linestat *"
+			],
+			[
+				"mall",
+				"malloc(size_t __size)	void *"
+			],
+			[
+				"stru",
+				"struct	struct"
+			],
+			[
+				"inS",
+				"inStream	FILE *"
+			],
+			[
+				"cha",
+				"char"
+			],
+			[
+				"ma",
+				"main"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"get",
+				"getNextLine(struct linestat *nxtLine)	int"
+			],
+			[
+				"li",
+				"line"
+			],
+			[
+				"stat",
+				"stat	struct linestat *"
+			],
+			[
+				"l",
+				"linestat"
+			],
+			[
+				"st",
+				"struct"
+			],
+			[
+				"lin",
+				"linestat"
+			],
+			[
+				"file",
+				"filestat"
+			],
+			[
+				"ana",
+				"analyse_rsm"
+			],
+			[
+				"e",
+				"else"
+			],
+			[
+				"i",
+				"if	If Condition"
+			],
+			[
+				"E",
+				"EOF"
+			],
+			[
+				"char",
+				"charCount"
+			],
+			[
+				"to",
+				"totalLineCount"
+			],
+			[
+				"tota",
+				"totalLineCount"
+			],
+			[
+				"wor",
+				"wordCount"
+			],
+			[
+				"tot",
+				"totalCharCount"
+			],
+			[
+				"arg",
+				"argv"
+			],
+			[
+				"ex",
+				"exit"
+			],
+			[
+				"print",
+				"printf	printf …"
+			],
+			[
+				"struct",
+				"struct"
+			],
+			[
+				"std",
+				"stdio"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "filestat.sublime-project",
+			"settings":
+			{
+				"buffer_size": 884,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/test/Testfilestat.c",
+			"settings":
+			{
+				"buffer_size": 1551,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/test/filestatTests.c",
+			"settings":
+			{
+				"buffer_size": 416,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/test/cutest/CuTest.c",
+			"settings":
+			{
+				"buffer_size": 8088,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "default.cbd",
+			"settings":
+			{
+				"buffer_size": 2395,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/main/filestat.h",
+			"settings":
+			{
+				"buffer_size": 1048,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/main/filestat.c",
+			"settings":
+			{
+				"buffer_size": 4015,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/santanu/src/cbuild/default.cbd",
+			"settings":
+			{
+				"buffer_size": 10441,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/santanu/src/cbuild/default_zdoom.cbd",
+			"settings":
+			{
+				"buffer_size": 10244,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "test_with_coverage",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"gs",
+				"Git: Status"
+			],
+			[
+				"gi",
+				"Git: Init"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"P",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"W",
+				"WhoCalled: Add/remove project folders"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"package ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"PackageIns",
+				"Package Control: Install Package"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 476.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/santanu/.config/sublime-text-2/Packages/SublimeGit/Default.sublime-keymap",
+		"/home/santanu/.config/sublime-text-2/Packages/SublimeGit/Default (Linux).sublime-keymap",
+		"/home/santanu/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/santanu/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/santanu/.config/sublime-text-2/Packages/User/Git.sublime-settings",
+		"/home/santanu/.config/sublime-text-2/Packages/Git/Git.sublime-settings",
+		"/host/santanu/programming/c_projects/filestat/src/test/cutest/CuTest.h",
+		"/host/santanu/programming/c_projects/filestat/src/test/cutest/CuTest.c",
+		"/host/santanu/programming/c_projects/filestat/src/test/filestat4test.c",
+		"/host/santanu/programming/c_projects/filestat/src/test/data/File_AllBlanks.txt",
+		"/home/santanu/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/santanu/.config/sublime-text-2/Packages/User/SublimeClang.sublime-settings",
+		"/host/santanu/programming/c_projects/filestat/src/test/testfilestat.c",
+		"/home/santanu/.config/sublime-text-2/Packages/SublimeClang/SublimeClang.sublime-settings",
+		"/home/santanu/.config/sublime-text-2/Packages/SublimeClang/Default.sublime-keymap",
+		"/home/santanu/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/santanu/.config/sublime-text-2/Packages/WhoCalled Function Finder/Default (Linux).sublime-keymap",
+		"/home/santanu/.config/sublime-text-2/Packages/WhoCalled Function Finder/README.md",
+		"/home/santanu/.config/sublime-text-2/Packages/WhoCalled Function Finder/WhoCalled.sublime-settings",
+		"/host/santanu/programming/c_projects/filestat/src/main/filestat.c",
+		"/home/santanu/.config/sublime-text-2/Packages/Shell Turtlestein/Shell Turtlestein.sublime-settings",
+		"/home/santanu/.astylerc",
+		"/host/santanu/programming/c_projects/filestat/cbuild.c",
+		"/home/santanu/.config/sublime-text-2/Packages/SublimeOnSaveBuild/SublimeOnSaveBuild.sublime-settings",
+		"/home/santanu/.config/sublime-text-2/Packages/User/externC_end.sublime-snippet",
+		"/home/santanu/.config/sublime-text-2/Packages/User/externC_begin.sublime-snippet",
+		"/home/santanu/.config/sublime-text-2/Packages/User/astyle.sublime-build",
+		"/home/santanu/.config/sublime-text-2/Packages/User/C_codeanalysis.sublime-build",
+		"/host/santanu/programming/c_projects/filestat/filestat.sublime-project",
+		"/host/santanu/programming/c_projects/filestat/default.cbd",
+		"/home/santanu/.config/sublime-text-2/Packages/User/Package Control.sublime-settings",
+		"/home/santanu/.config/sublime-text-2/Packages/SublimeOnSaveBuild/README.md",
+		"/home/santanu/.config/sublime-text-2/Packages/User/SublimeOnSaveBuild.sublime-settings",
+		"/home/santanu/.config/sublime-text-2/Packages/User/JSON.sublime-settings",
+		"/home/santanu/.config/sublime-text-2/Packages/Package Control/Package Control.sublime-settings",
+		"/media/FreeAgent Drive/santanu/software/c_projects/filestat/default.cbd",
+		"/media/FreeAgent Drive/santanu/software/c_projects/filestat/src/main/filestat.h",
+		"/media/FreeAgent Drive/santanu/software/c_projects/filestat/src/main/filestat.c",
+		"/media/FreeAgent Drive/santanu/software/c_projects/filestat/filestat.sublime-project",
+		"/media/FreeAgent Drive/santanu/software/c_projects/filestat/cbuild.c",
+		"/media/FreeAgent Drive/santanu/software/c_projects/filestat/src/main/filestat",
+		"/media/FreeAgent Drive/santanu/software/c_projects/filestat/src/main/glint.sh",
+		"/home/santanu/.config/sublime-text-2/Packages/User/C.sublime-settings",
+		"/media/FreeAgent Drive/santanu/software/c_projects/filestat/filestat.sublime-workspace",
+		"/media/FreeAgent Drive/santanu/software/c_projects/filestat/src/test/test.c",
+		"/home/santanu/.config/sublime-text-2/Packages/User/Shell Turtlestein.sublime-settings",
+		"/media/FreeAgent Drive/santanu/software/c_projects/filestat/filestat.qbs",
+		"/home/santanu/.config/sublime-text-2/Packages/User/trailing_spaces.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"git",
+			"printf",
+			"exit",
+			"@",
+			"bu",
+			"Side"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "filestat.sublime-project",
+					"settings":
+					{
+						"buffer_size": 884,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								723,
+								723
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/test/Testfilestat.c",
+					"settings":
+					{
+						"buffer_size": 1551,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								657,
+								657
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/test/filestatTests.c",
+					"settings":
+					{
+						"buffer_size": 416,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								403,
+								403
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/test/cutest/CuTest.c",
+					"settings":
+					{
+						"buffer_size": 8088,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6723,
+								6723
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4849.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "default.cbd",
+					"settings":
+					{
+						"buffer_size": 2395,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1302,
+								1302
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/main/filestat.h",
+					"settings":
+					{
+						"buffer_size": 1048,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								871,
+								871
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 324.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/main/filestat.c",
+					"settings":
+					{
+						"buffer_size": 4015,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								159,
+								159
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/santanu/src/cbuild/default.cbd",
+					"settings":
+					{
+						"buffer_size": 10441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1537,
+								1537
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1500.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/home/santanu/src/cbuild/default_zdoom.cbd",
+					"settings":
+					{
+						"buffer_size": 10244,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								944,
+								944
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 235.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clang":
+	{
+		"height": 78.0
+	},
+	"output.exec":
+	{
+		"height": 190.0
+	},
+	"output.git-init":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 241.0,
+	"status_bar_visible": true
+}

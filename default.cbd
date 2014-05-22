@@ -1,0 +1,87 @@
+TARGET = filestat
+SRC_MAIN = src/main
+SRC_TEST = src/test
+OBJ_DIR = build/obj
+DEP_DIR = build/dep
+
+BUILD_DIR = build/bin
+
+do ifopt analyse_rsm
+    echo "Running RSM static analysis on source code ..."
+
+    ifnexist "reports/rsm/." mkdir "reports/rsm"
+
+    echo "Analysing main source code ..."
+    ifexist "reports/rsm/main/." @!call rm -R "reports/rsm/main"
+    mkdir "reports/rsm/main"
+    @!call rsm -a -c -d -fd -n -o -s -S"Analysis Report for filestat" -H -O"reports/rsm/main/filestat_report.html" ${SRC_MAIN}/${TARGET}.h ${SRC_MAIN}/${TARGET}.c
+
+    exit 0
+done
+
+do ifopt test_with_coverage
+    test = "true"
+    coverage = "true"
+    exit_after_coverage = "true"
+done
+
+do if ${coverage}="true"
+    CFLAGS += "--coverage "
+    LDFLAGS += "--coverage "
+done
+
+do if ${test}="true"
+    echo "Begin testing ${TARGET} ..."
+
+    src_paths ${SRC_TEST}/cutest ${SRC_TEST}
+    CPPFLAGS += "-DTEST_FILESTAT "
+    CFLAGS += "-Isrc/test/cutest -Isrc/main "
+
+    ifnexist "${OBJ_DIR}/." mkdir ${OBJ_DIR}
+    compile CuTest.c Testfilestat.c filestatTests.c
+
+    echo "Checking test directory ${BUILD_DIR}/test ..."
+    ifnexist "${BUILD_DIR}/test/." @!call mkdir -p ${BUILD_DIR}/test
+    linkexec ${BUILD_DIR}/test/filestatTests
+    @!call ${BUILD_DIR}/test/filestatTests
+
+    ifnret 0 exit_after_test = "true"
+
+    echo "Finished test run ..."
+    src_paths .
+    CFLAGS -= "-Isrc/main -Isrc/test/cutest "
+    CPPFLAGS -= "-DTEST_FILESTAT "
+
+    if ${exit_after_test}="true" exit 0
+done
+
+do if ${coverage}="true"
+    CFLAGS -= "--coverage "
+    LDFLAGS -= "--coverage "
+
+    ## create reports/coverage directory if doesn't exist
+    ifnexist "reports/coverage/." mkdir reports/coverage
+
+    @!readexec project_dir pwd
+    @!call lcov --capture --directory ${project_dir} --output-file reports/coverage/filestat_coverage.info
+    @!call genhtml reports/coverage/filestat_coverage.info --output-directory reports/coverage/
+
+    if ${exit_after_coverage}="true" exit 0
+done
+
+echo "Begin building ${TARGET} ..."
+
+src_paths ${SRC_MAIN}
+
+## create OBJ_DIR and DEP_DIR if doesn't exist
+ifnexist "${OBJ_DIR}/." mkdir ${OBJ_DIR}
+ifnexist "${DEP_DIR}/." mkdir ${DEP_DIR}
+
+compile filestat.c
+
+## linking release build
+echo "Checking build directory ${BUILD_DIR}/release ..."
+ifnexist "${BUILD_DIR}/release/." @!call mkdir -p ${BUILD_DIR}/release
+linkexec ${BUILD_DIR}/release/${TARGET}
+
+echo "Build complete ..."
